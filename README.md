@@ -21,5 +21,3 @@ Icon to show. Use ionicons.
     </wf-status-message>
 </ion-list>
 ```
-
-![StatusMessage](https://github.com/webfactor/ionic-lib/blob/master/screenshots/status-message.png)
