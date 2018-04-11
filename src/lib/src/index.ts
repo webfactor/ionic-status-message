@@ -1,4 +1,3 @@
-export * from './sample.module';
-export * from './sample.component';
-export * from './sample.service';
-export * from './sample.module';
+export { StatusMessageModule } from './status-message.module';
+
+export * from './components/status-message/status-message';

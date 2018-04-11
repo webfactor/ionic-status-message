@@ -1,0 +1,17 @@
+<ion-card text-center>
+
+    <ion-card-header>
+        <ion-icon [name]="icon"></ion-icon>
+    </ion-card-header>
+
+    <ion-card-content padding>
+        <div #ref>
+            <ng-content></ng-content>
+        </div>
+
+        <span *ngIf="!ref.innerHTML.trim()">
+            Some text here. 👋
+        </span>
+    </ion-card-content>
+
+</ion-card>
