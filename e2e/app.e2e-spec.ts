@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('status-message App', () => {
+describe('ionic-status-message App', () => {
   let page: AppPage;
 
   beforeEach(() => {
